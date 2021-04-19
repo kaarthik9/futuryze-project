@@ -1,0 +1,73 @@
+.container {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.contactsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.createContact {
+  width: 24%;
+  height: 23rem;
+  padding: 1rem;
+  margin: 1rem;
+  align-self: flex-start;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(13, 70%, 61%);
+  border-radius: 0.7rem;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.createContact h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.addNew {
+  background-color: #383e56;
+  color: #fff;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  margin: 1rem auto;
+  border: none;
+}
+
+.pagnation {
+  text-align: center;
+  margin: 1rem auto;
+  margin-left: 45%;
+  font-size: 1.5rem;
+}
+
+.pagnation ul {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.logoutPic span {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .contactsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .createContact {
+    width: 80%;
+  }
+}
